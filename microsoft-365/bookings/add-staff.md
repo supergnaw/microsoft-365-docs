@@ -76,7 +76,7 @@ You may want to add a person to your staff list in Bookings without making them 
 
 1. [Connect to Microsoft 365 with PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-2. Using PowerShell, assign full access with the following commands:
+2. Using PowerShell, assign full access by running the following commands:
 
     ```powershell
     Add-MailboxPermission -Identity <bookingmailbox@emailaddress> -User <adminusers@emailaddress> -AccessRights FullAccess -Deny:$false
