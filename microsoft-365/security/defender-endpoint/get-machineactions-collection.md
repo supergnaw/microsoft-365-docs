@@ -45,7 +45,7 @@ Supports [OData V4 queries](https://www.odata.org/documentation/).
 
 The OData's `$filter` query is supported on: `id`, `status`, `machineId`, `type`, `requestor`, and `creationDateTimeUtc` properties.
 
-`$stop` with max value of 10,000
+`$top` with max value of 10,000
 
 `$skip`
 
